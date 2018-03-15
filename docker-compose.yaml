@@ -1,7 +1,8 @@
 version: "3"
 services:
   tf:
-    image: tensorflow/tensorflow:1.6.0-py3
+    #image: tensorflow/tensorflow:1.6.0-py3
+    build: .
     volumes:
       - ".:/notebooks"
     ports:
